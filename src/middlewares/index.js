@@ -1,5 +1,7 @@
-import { verifyToken } from "./authjwt";
+import * as authJwt from "./authjwt";
+import * as verifySignup from './verifySignup'
 
 export {
-    verifyToken
+    authJwt,
+    verifySignup
 }
